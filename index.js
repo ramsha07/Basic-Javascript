@@ -320,10 +320,48 @@
 // console.log(a)
 
 //example of || which is in search of true to stop its circuit and become true without looking the next value after one true appears
-var score = 60;
-var a = score>50 || score==60 || score<40 || score>=60
-console.log(a)
+// var score = 60;
+// var a = score>50 || score==60 || score<40 || score>=60
+// console.log(a)
 
+//----CONDITIONS(IF AND ELSE )
+//---IF(Represents TRUE,we write if and in the round brackets we write the condition which is to be fullfilled to come in the curly bracket and run the code )
+//---ELSE(Represents FALSE,if the above code doesnot execute this will run)
+// var a = 8;
+// if(a==8){
+//     console.log("Eligible")
+// }
+// else{
+//     console.log("Not eligible")
+// }
 
+//  var age = 15;
+//  var age = 20;
+// if(age >=18){
+//     console.log("can drive")
 
-
+// }
+// else{
+//     console.log("cannot drive")
+// }
+//---ELSE IF(for multiple conditions,)
+// var score = 91;
+//  var score = 76;
+//  var score = 69;
+//  var score = 55;
+//  var score = 40;
+if(score>80){
+    console.log("Grade A+")
+}
+else if(score>70){
+    console.log("Grade A")
+}
+else if(score>60){
+    console.log("Grade B")
+}
+else if(score>50){
+    console.log("Grade C")
+}
+else {
+    console.log("Failed")
+}
